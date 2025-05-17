@@ -648,10 +648,10 @@ section
 
 #gameTitle
 {
-    font-size: 33px;
+    font-size: 53px;
     font-family: 'poppins',sans-serif;
     font-weight: 700;
-    color: #4b2500;
+    color: #003a1a;
 }
 
 #dirt3
@@ -692,7 +692,7 @@ section
 #Qsky h2
 {
     font-family: 'poppins',sans-serif;
-    color: #3a2500;
+    color: #00333a;
     margin-bottom: 33px;
 }
 
