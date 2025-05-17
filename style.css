@@ -544,7 +544,7 @@ section
 
 #yellowBottom1
 {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background: #ffe77f;
 }
@@ -702,4 +702,44 @@ section
     color: #3a2500;
     font-family: 'poppins',sans-serif;
     margin-bottom: 17px;
+}
+
+#sensorialGardenH2
+{
+    text-align: justify;
+    color: #00333a;
+    margin-bottom: 17px;
+    font-family: 'poppins',sans-serif;
+}
+
+#Qbutton
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    align-items: center;
+}
+
+#Qbutton a
+{
+    text-decoration: none;
+    height: 37px;
+}
+
+#seeMoreQuintal
+{
+    position: relative;
+    height: 37px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: #4caf50;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
