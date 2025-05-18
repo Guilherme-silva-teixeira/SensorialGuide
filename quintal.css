@@ -219,6 +219,7 @@ section #title
     height: 177px;
     background-image: url("edHeader.png");
     transform: rotate(180deg);
+    margin-bottom: -3px;
 }
 
 #imgBottom0
@@ -265,6 +266,7 @@ section #title
     height: 137px;
     background-image: url("greenArbust - Copia.png");
     transform: rotate(180deg);
+    margin-top: -3px;
 }
 
 #desc p
