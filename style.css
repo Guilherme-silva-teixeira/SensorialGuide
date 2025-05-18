@@ -743,3 +743,79 @@ section
     justify-content: center;
     align-items: center;
 }
+
+#footerImgTop
+      {
+        height: 190px;
+        width: 100%;
+        background-image: url("edHeader.png");
+        transform: rotate(180deg);
+        margin-top: -133px;
+      }
+
+      footer
+      {
+        margin-top: -133px;
+          position: absolute;
+          height: 170px;
+          width: 100%;
+          background: #ffe77f;
+      }
+
+      #footerBox
+      {
+        padding-left: 33px;
+        padding-right: 33px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #left #e1 img
+      {
+        position: relative;
+        z-index: 1;
+        height: 133px;
+        margin-top: -133px;
+      }
+
+      #left #e2
+      {
+        margin-top: -17px;
+        font-family: 'poppins',sans-serif;
+        color: #4b2500;
+      }
+
+      #left p
+      {
+        font-family: 'poppins',sans-serif;
+        font-size: 13px;
+      }
+
+      #e3
+      {
+        margin-left: -5px;
+        margin-top: 7px;
+      }
+
+      #e3 i
+      {
+        font-size: 27px;
+        color: #4b2500aa;
+      }
+
+      #right #d1
+      {
+        position: relative;
+        z-index: 1;
+        margin-top: -33px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #right #d1 a
+      {
+        text-decoration: none;
+        font-family: 'poppins',sans-serif;
+        color: #000;
+      }
