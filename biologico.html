@@ -1,33 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="biologico.css">
-    <title>Quintal</title>
-</head>
-<body>
-    <header id="mainHeader">
-        <div id="left"><img src="edLogo.png" id="logo"></div>
-        <div id="right">
-          </div>
-          <div id="link">
-            <img src="cloud2.png" alt="sobre o projeto" class="cloud" />
-            <a href="index.html" class="link">Página<br>inicial</a>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="biologico.css" />
+    <title>Biológico</title>
+  </head>
+  <body>
+    <header id="mainHeader0">
+      <div id="left"><img src="edLogo.png" id="logo" /></div>
+      <div id="right">
+        <a href="index.html">
           <div id="link">
             <img src="cloud1.png" alt="sobre o projeto" class="cloud" />
-            <a href="jardim.html" class="link">Jardim</a>
-          </div>
-          <div id="gameButtonLink">
-            <div id="link">
-                <img src="cloud2.png" alt="sobre o projeto" class="cloud" />
-                <a href="#" class="link">Quintal</a>
+            <div class="link">
+              Página <br />
+              inicial
             </div>
           </div>
-        </div>
+        </a>
+
+        <a href="quintal.html">
+          <div id="link">
+            <img src="cloud2.png" alt="sobre o projeto" class="cloud" />
+            <div class="link">Quintal</div>
+          </div>
+        </a>
+
+        <a href="jardim.html">
+          <div id="link">
+            <img src="cloud1.png" alt="sobre o projeto" class="cloud" />
+            <div class="link">Jardim</div>
+          </div>
+        </a>
+
+        <a href="about.html">
+          <div id="link">
+            <img src="cloud1.png" alt="sobre o projeto" class="cloud" />
+            <div class="link">O projeto</div>
+          </div>
+        </a>
+      </div>
     </header>
-    <section></section>
+    <section>
+      <div id="mainContainer">
+        <h1>Anatomia vejetal</h1>
+        <div id="desc">
+          <p>
+            A anatomia vegetal é o estudo da estrutura interna dos órgãos de uma
+            planta, como raiz, caule, folha, flor, fruto e semente. Exemplos de
+            estudos anatômicos incluem a análise das células da epiderme, a
+            distribuição dos tecidos de condução (xilema e floema) em diferentes
+            órgãos, e as características dos tecidos de sustentação (colênquima
+            e esclerênquima).
+          </p>
+        </div>
+        <div id="leftImg">
+          <img src="anatomiaVejetal.png" />
+        </div>
+        <div id="desc">
+          <p>
+            <strong>Anatomia da Raiz: <br></strong> A raiz pode ser dividida em três porções: epiderme
+            (rizoderme), córtex e cilindro vascular. A função da raiz é fixar a
+            planta no solo, absorver água e nutrientes, e armazenar substâncias
+            de reserva.
+          </p>
+        </div>
+      </div>
+    </section>
+    <style>
+      #mainHeader
+      {
+        z-index: 1;
+        position: fixed;
+      }
+      #mainContainer
+      {
+        position: absolute;
+        margin-top: 233px;
+        width: 100%;
+        /*background: #ffe77f;*/
+      }
+      #mainContainer h1
+      {
+        width: 100%;
+        text-align: center;
+        font-family: "poppins", sans-serif;
+        font-size: 3rem;
+        color: #4b2500;
+      }
+      #desc
+      {
+        margin-top: 33px;
+        font-family: "poppins", sans-serif;
+        width: 100%;
+        color: #4b2500;
+        padding: 0 17% 0 17%;
+      }
+      #desc p
+      {
+        text-align: justify;
+        font-size: 17px;
+      }
+      #desc p strong
+      {
+        font-size: 21px;
+        margin-bottom: 7px;
+      }
+      #leftImg
+      {
+        margin-top: 33px;
+        margin-bottom: 33px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 33px;
+      }
+      #leftImg img
+      {
+        height: 377px;
+        border: 3px solid #fff;
+        border-radius: 23px;
+        box-shadow: 3px 3px 17px #0005;
+      }
+    </style>
     <footer></footer>
-</body>
+    <script src="DOM.js"></script>
+  </body>
 </html>
