@@ -127,152 +127,7 @@ header
     transform: rotate(-4deg);
 }
 
-section
-{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-top: 193px;
-}
 
-section #title
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#title h1
-{
-    font-family: "poppins", sans-serif;
-    color: #4b2500;
-    font-size: 53px;
-    font-weight: 700;
-}
-
-#title h2
-{
-    font-family: "poppins", sans-serif;
-    color: #4b2500;
-    margin-top: 33px;
-    font-size: 33px;
-}
-
-#desc
-{
-    margin-top: 33px;
-    width: 100%;
-    padding: 0 17% 0 17%;
-    text-align: justify;
-    font-family: "poppins", sans-serif;
-}
-
-#desc p:nth-child(2)
-{
-    margin-top: 33px;
-}
-
-#desc p:nth-child(3)
-{
-    margin-top: 33px;
-}
-
-#title0
-{
-    margin-top: 177px;
-    margin-bottom: 33px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#title0 h1
-{
-    font-family: "poppins", sans-serif;
-    font-size: 53px;
-    color: #4b2500;
-}
-
-#BlueH2
-{
-    width: 100%;
-    font-family: "poppins", sans-serif;
-    color: #00333a;
-    font-size: 23px;
-    display: flex;
-    justify-content: center;
-}
-
-#desc
-{
-    padding-bottom: 37px;
-}
-
-#box2
-{
-    background: #ffe77f;
-}
-
-#imgTop0
-{
-    width: 100%;
-    height: 177px;
-    background-image: url("edHeader.png");
-    transform: rotate(180deg);
-    margin-bottom: -3px;
-}
-
-#imgBottom0
-{
-    width: 100%;
-    height: 177px;
-    background-image: url("edHeader.png");
-    transform: rotate();
-}
-
-#map
-{
-    position: relative;
-    z-index: -1;
-    margin-top: -133px;
-    height: 1280px;
-    background: #348757;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 73px;
-}
-
-#map img
-{
-    height: 900px;
-    border: 3px solid white;
-    border-radius: 37px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.777);
-}
-
-#map h1
-{
-    font-family: 'poppins',sans-serif;
-    font-size: 3rem;
-    margin-bottom: 37px;
-    color: #e7e7e7;
-}
-
-#imgBottom1
-{
-    width: 100%;
-    height: 137px;
-    background-image: url("greenArbust - Copia.png");
-    transform: rotate(180deg);
-    margin-top: -3px;
-}
-
-#desc p
-{
-    color: #4b2500;
-}
 
 
 #footerImgTop
@@ -286,8 +141,6 @@ section #title
 
       footer
       {
-        position: absolute;
-        margin-top: 4200px;
           height: 170px;
           width: 100%;
           background: #ffe77f;
@@ -350,3 +203,60 @@ section #title
         font-family: 'poppins',sans-serif;
         color: #000;
       }
+
+      section
+            {
+                width: 100%;
+                position: absolute;
+            }
+            #author img
+            {
+                height: 233px;
+                border-radius: 17px;
+                border: 3px solid #e5e5e5;
+                box-shadow: 1px 1px 3px #0007;
+            }
+            #author
+            {
+                margin-top: 73px;
+                width: 100%;
+                padding-left: 17%;
+                padding-right: 7%;
+                flex-direction: row;
+                display: flex;
+            }
+            #author #desc
+            {
+                margin-left: 17px;
+                display: flex;
+                flex-direction: column;
+                max-width: 700px;
+                font-family: 'poppins',sans-serif;
+            }
+            #desc strong
+            {
+                font-size: 21px;
+                color: #005b4f;
+            }
+            #desc p
+            {
+                color: #5b2500;
+                text-align: justify;
+            }
+            #title
+            {
+                margin-top: 300px;
+                width: 100%;
+                text-align: center;
+            }
+            #container #title h1
+            {
+                color: #5b2500;
+                font-size: 33px;
+                font-family: 'poppins',sans-serif;
+            }
+            footer
+            {
+                margin-top: 1900px;
+                position: absolute;
+            }
